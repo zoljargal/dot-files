@@ -15,11 +15,10 @@ window:
     y: 0
 
 font:
-  use_thin_strokes: true
-  size: 13
-  normal:
-    family: Monaco
-    style: Regular
+  size: 11
+  #normal:
+    #family: Monaco
+    #style: Regular
 
 scolling:
   history: 10000
@@ -61,7 +60,6 @@ selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
   save_to_clipboard: true
 
-alt_send_esc: false
 key_bindings:
   - { key: Return,    mods: Alt,           action: SpawnNewInstance }
   - { key: K,         mods: Control|Shift, action: ScrollLineUp }
